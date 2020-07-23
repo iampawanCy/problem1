@@ -1,0 +1,16 @@
+215 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
+What is the sum of the digits of the number 21000?
+
+Given,
+2^15 = 32768
+So that 
+2^1000 = 21000
+
+First we need to find the digits of 2100 and sum each digit sequentially.
+I have used python to solve this problem.
+ 
+First integer value of 2^1000 is changed to string value to identify its digits and counter sumDigits with zero value is created to store the value of sum of digits.
+Then using the for loop each digits were separated and added and stored in sumDigits variable.
+  
+
+
